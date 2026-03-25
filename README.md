@@ -1,4 +1,4 @@
-# Oath Path Assessment — GeoSpatial Analyst Internship
+# Oath Path Assessment
 
 **Name:** Rose Kawila Kyalo  
 **Date:** 25th March 2026  
@@ -8,7 +8,7 @@
 
 This repository contains my submission for the Oath Path GeoSpatial Analyst Internship assessment. The assessment consists of two projects completed within a 3-hour window. Project 1 focuses on land cover classification using satellite imagery and machine learning, and Project 2 covers SQL querying.
 
-## Project 1 — Land Cover Classification, South-Western province of Rwanda
+## Project 1 : Land Cover Classification, South-Western province of Rwanda
 
 ### What the Project Does
 
@@ -35,9 +35,9 @@ The satellite image was loaded and inspected. It contains 11 bands (B2–B12) in
 **2. Feature Engineering**  
 Three spectral indices were computed from the raw bands to improve the model's ability to distinguish land cover types:
 
-- **NDVI** (Normalized Difference Vegetation Index) — highlights vegetation such as forest and tea
-- **NDWI** (Normalized Difference Water Index) — highlights water bodies
-- **NDBI** (Normalized Difference Built-up Index) — highlights built-up areas
+- **NDVI** (Normalized Difference Vegetation Index) : highlights vegetation such as forest and tea
+- **NDWI** (Normalized Difference Water Index) : highlights water bodies
+- **NDBI** (Normalized Difference Built-up Index) : highlights built-up areas
 
 The final feature set combines all 11 raw bands with the 3 computed indices, giving 14 features per pixel.
 
@@ -69,7 +69,7 @@ The provided training dataset did not include the buildings class. Ideally, this
 
 As a result, the model was trained on four classes. The notebook includes a detailed step-by-step walkthrough of how the buildings class would have been added using QGIS, including digitizing building points from the satellite image and merging them with the original training shapefile.
 
-## Project 2 — SQL Queries
+## Project 2 : SQL Queries
 
 ### What the Project Does
 
